@@ -25,9 +25,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f2f2f2;
 }
 .block__padding-top-100 {
   padding-top: 100px;
+}
+
+.section-position_center {
+  margin:0 auto;
+  text-align: center;
 }
 
 .header {
@@ -162,6 +168,40 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
   padding-bottom: 20px;
   line-height: 1.12;
   font-size: 18px;
+}
+
+.feynman {
+  padding-top: 40px;
+  display: flex;
+  min-height: 1050px;
+  background-image: url('../images/feynman.png');
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 700;
+  max-width: 648px;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+}
+
+.feynman__link {
+  position: absolute;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+}
+
+.kaufman {
+  padding-top: 70px;
+  background-color: #1f1f1f;
+  color: white;
 }
 
 /* и элемента с модификатором вида ключ-значение */
