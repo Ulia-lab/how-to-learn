@@ -16,6 +16,9 @@ p,div,h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: #f2f2f2;
+  padding:0;
+  margin:0;
+  border:0;
 }
 .block__padding-top-100 {
   padding-top: 100px;
@@ -118,10 +121,6 @@ p,div,h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 .digits {
   display: flex;
   flex-direction: column;
-}
-.section-position_center {
-  margin: 0 auto;
-  text-align: center;
 }
 
 .section-title {
