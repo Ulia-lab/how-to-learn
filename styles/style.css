@@ -271,7 +271,7 @@
   margin: 0 auto;
 }
 
-.footer__content_column-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -292,7 +292,7 @@
   font-size: 18px;
 }
 
-.footer__column_content-social {
+.footer__column_content_social {
  align-items: center;
 }
 
