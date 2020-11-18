@@ -42,10 +42,16 @@
 @import url(../blocks/content/khan/__book-container/khan__book-container.css);
 @import url(../blocks/content/khan/__author/khan__author.css);
 
+@import url(../blocks/content/resources/resources.css);
+@import url(../blocks/content/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/content/resources/__logo/resources__logo.css);
+
 @import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/links/links.css);
 
 @import url(../blocks/rotation/rotation.css);
 
